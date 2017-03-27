@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config scope="client" clientversion="4" devicetype="all" theme="skin-default">
+  <appid>helloword</appid>
+  <appname>helloword</appname>
+  <description></description>
+  <version>1.0.0</version>
+  <date>2017-03-27</date>
+  <homepage src="res:page/exmobi/login/login1.uixml"></homepage>
+  <faultconfig src=""></faultconfig>
+  <access network="true" gps="true" camera="true" certificate="true" land="false" orientation="port"></access>
+  <vendor email="" url=""></vendor>
+  <icon main="res:image/main.png" logo="res:image/logo.png"></icon>
+</config>

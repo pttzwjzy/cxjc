@@ -1,0 +1,109 @@
+<cdf>
+	<id>skin-default</id>
+	<name>扁平风格</name>
+	<description>以扁平风格为主的皮肤</description>
+	<date>2014-04-23</date>
+	<vendor url="http://nj.www.fiberhome.com.cn" email="support@nj.fiberhome.com.cn">fiberhome</vendor>
+	<setting>
+		<!-- 公共样式 -->
+		<attrs/>
+		<body background-color="white">
+			<bg-primary background-color="#15aceb"/>
+		</body>
+		<header background-color="white">
+			<bg-primary background-color="#15aceb"/>
+		</header>
+		<hr border-color="#e5e5e5"/>
+		
+		<!-- 表单控件 -->
+		<a color="#15aceb" color-focus="#0c89e1"/>
+		<font>
+			<row-left width="35%" font-size="18" margin="8 8"/>
+			<row-right color="#999999" width="65%" font-size="18" margin="8 8"/>
+			<text-right text-align="right"/>
+			<color-primary color="#15aceb"/>
+		</font>
+		<listitem-checkbox border-radius="16" border-color="white" border-size="0" overlay="theme:image/icon/check.png,theme:image/icon/checked.png" background-color="transparent"/>
+		<checkbox border-color="white" border-size="0" overlay="theme:image/icon/cbo.png,theme:image/icon/cbo_current.png" background-color="transparent"/>
+		<radio border-color="white" border-size="0" overlay="theme:image/icon/rdo.png,theme:image/icon/rdo_current.png" background-color="transparent"/>
+		<file icon="theme:image/icon/floder.png" button-background-color="transparent" overlay="none" overlay-click="none"/>
+		<camera icon="theme:image/icon/camera.png" button-background-color="transparent" overlay="none" overlay-click="none"/>
+		<decode icon="theme:image/icon/decode.png" button-background-color="transparent" overlay="none" overlay-click="none"/>
+		<date icon="theme:image/icon/date.png" button-background-color="transparent" overlay="none" overlay-click="none"/>
+		<time icon="theme:image/icon/time.png" button-background-color="transparent" overlay="none" overlay-click="none"/>
+		<select icon="theme:image/icon/select.png" button-background-color="transparent" overlay="none" overlay-click="none"/>
+		<eselect icon="theme:image/icon/select.png" button-background-color="transparent" overlay="none" overlay-click="none"/>
+		
+		<text border-color="#e5e5e5" border-color-focus="#e5e5e5">
+			<row-left width="35%" border-size="0" height="40" padding="0 8" background-color="transparent"/>
+			<row-right width="65%" border-size="0" height="40" padding="0 8"/>
+		</text>
+		<textarea border-color="#e5e5e5" border-color-focus="#e5e5e5" />
+		
+
+		<!-- 导航控件 -->
+		<titlebar height="44" overlay="none" icon="theme:image/titlebar/back.png" clickicon="theme:image/titlebar/back-active.png" title-color="white" background-color="#15aceb">
+			<reverse title-color="#333333" background-color="white"/>
+		</titlebar>
+		<tabbar tab-background-color="white" tab-background-current-color="white" color="#9c9c9c" current-color="#15aceb" border-color="white" border-current-color="#15aceb" tip-background-color="#f25a00" tip-color="white"/>
+		<menubar background-color="#15aceb" menu-background-click-color="#15aceb" menu-background-current-color="#15aceb" menu-color="white" menu-click-color="white" menu-current-color="white" overlay="none">
+			<reverse background-color="#f1f1f1" menu-background-click-color="#f1f1f1" menu-background-current-color="#f1f1f1" menu-color="#808080" menu-click-color="#15aceb" menu-current-color="#15aceb"/>
+		</menubar>
+		<listitem-one background-click-color="#f1f1f1" sndcolor="#aaaaaa" rcolor="#aaaaaa" border-color="#e5e5e5">
+			<noclick background-click-color="transparent"/>
+			<current background-color="#f1f1f1"/>
+			<caption-primary color="#15aceb"/>
+			<rcaption-primary color="#15aceb"/>
+		</listitem-one>
+		<listitem-two background-click-color="#f1f1f1" sndcolor="#aaaaaa" rcolor="#aaaaaa" border-color="#e5e5e5">
+			<noclick background-click-color="transparent"/>
+			<current background-color="#f1f1f1"/>
+			<caption-primary color="#15aceb"/>
+			<sndcaption-primary sndcolor="#15aceb"/>
+			<rcaption-primary rcolor="#15aceb"/>
+		</listitem-two>
+		<indexbar border-color="#e5e5e5"/>
+		<toggle background-click-color="#f1f1f1" color="#15aceb" sndcolor="#aaaaaa" rcolor="#aaaaaa" border-color="#e5e5e5"/>
+		<fileset title-background-color="#15aceb" background-color="#f8f8f8" background-click-color="#e8e8e8" title-icon="theme:image/filetype/attach.png" folder_icon="theme:image/filetype/folder.png" txt_icon="theme:image/filetype/txt.png" pic_icon="theme:image/filetype/pic.png" pdf_icon="theme:image/filetype/pdf.png" xls_icon="theme:image/filetype/excel.png" zip_icon="theme:image/filetype/zip.png" audio_icon="theme:image/filetype/audio.png" video_icon="theme:image/filetype/video.png" ppt_icon="theme:image/filetype/powerpoint.png" doc_icon="theme:image/filetype/word.png" other_icon="theme:image/filetype/unknow.png"/>
+		<switch on-background-color="#15aceb" border-color="#e5e5e5"/>
+		
+		<!-- 布局控件 -->
+		<div>
+			<titlebar height="44" background-color="#15aceb" text-valign="middle" color="white" padding="0 8 0 8"/>
+			<titlebar-reverse height="44" background-color="white" text-valign="middle" color="#15aceb" padding="0 8 0 8" border-bottom-size=" 1" border-color="#e5e5e5" />
+			<menubar background-color="#e5e5e5" text-align="center" height="48" text-valign="middle" color="white"/>
+			<menubar-reverse background-color="#15aceb" text-align="center" height="48" text-valign="middle" color="white"/>
+			<menu border-radius="4" background-color="#15aceb" background-click-color="#0c89e1" text-align="center" text-valign="middle" width="50%" height="36" color="white" margin="0 8"/>
+			<statusbar background-color="#f1f1f1" text-align="center" height="48" text-valign="middle" color="white"/>
+			<bg-transparent background-color="transparent"/>
+			<bg-primary background-color="#15aceb" color="white"/>
+			<color-primary color="#15aceb"/>
+		</div>
+		
+		<!-- 按钮 -->
+		<button height="40" margin="4" padding="0 4" background-color="#15aceb" background-click-color="#0c89e1" border-color="#15aceb" border-size="0" color="white" click-color="white" text-align="center" overlay="none" overlay-click="none" text-valign="middle" border-radius="4">
+			<valibtn background-color="#ffa304" background-click-color="#e37e18" border-size="0"/>
+			<reverse background-color="white" background-click-color="transparent" border-color="white" border-size="1" color="#15aceb" click-color="white"/>
+			<!--<submit background-color="#2e669c" background-click-color="#23416c"/>-->
+			<outline border-color="#15aceb" color="#15aceb" background-color="transparent" background-click-color="#0c89e1" border-size="1"/>
+			<today background-color="white" color="#15aceb" border-color="#15aceb" border-size="1"/>
+			<active background-color="#15aceb" background-click-color="#15aceb" color="white"/>
+			<day background-color="transparent" color="#333333"/>
+			<othermonth background-color="transparent" color="#aaaaaa"/>			
+		</button>
+		
+		<!-- 弹出框 -->
+		<alert border-color="#e5e5e5" border-size="0" title-background-color="#15aceb" title-color="white"/>
+		<dialog border-color="#e5e5e5" border-size="0" title-background-color="#15aceb" title-color="white"/>
+		<popmenu title-background-color="#15aceb" title-color="white" background-color="#f8f8f8" background-click-color="#e8e8e8" color=" #333333"/>
+		
+		<!-- 手势密码 -->
+		<pattern title-background-color="#15aceb" title-icon="none" title-clickicon="none" line-color="#15aceb" line-size="2" line-error-color="#ff4242" pattern-background-image="theme:image/pattern/bg.jpg" setting-background-image="theme:image/pattern/bg.jpg" tip-color="#a7aaaf" tip-error-color="#a7aaaf" forget-color="#a7aaaf" cell-icon="theme:image/pattern/cell.png" cell-selected-icon="theme:image/pattern/on.png" cell-error-icon="theme:image/pattern/error.png"/>
+		
+		<!-- 网格 -->		
+		<grid color="#666666" click-color="white" current-color="#666666" iconwidth="48" iconheight="48" cell-background-click-color="#15aceb" cell-background-opacity="1" tip-background-color="#f25a00" tip-color="white">
+			<reverse color="white" current-color="white"/>
+		</grid>
+		
+	</setting>
+</cdf>

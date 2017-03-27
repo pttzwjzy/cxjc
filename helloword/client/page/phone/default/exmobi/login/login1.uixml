@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.nj.fiberhome.com.cn/exmobi.dtd">
+<html>
+	<head>
+		<title show="false"/>
+		<link rel="stylesheet" type="text/css" href="res:css/global.css" />
+		<style type="text/css">
+		body{
+			background-color:white;
+			padding:0 24;
+			text-valign:middle;
+		}
+		footer{
+			background-color:white;
+		}
+		header{
+			background-color:white;
+			padding:0 24;
+		}
+		input[type=text]{
+			background-color:white;
+			border-size:1;
+			border-radius:0;
+			border-color:#e5e5e5;
+			margin:0;
+			height:40;
+			padding:0 4;
+		}
+		input[type=password]{
+			background-color:white;
+			border-size:1;
+			border-radius:0;
+			border-color:#e5e5e5;
+			margin:0;
+			height:40;
+			padding:0 4;
+		}
+		input[type="checkbox"]{
+			background-color:transparent;
+			border-size:1;
+			border-radius:0;
+			border-color:#e5e5e5;
+			margin:0;
+			height:32;
+			overlay:url(res:image/login1/cbo.png,res:image/login1/cbo_current.png)
+		}
+		input[type="button"]{
+			border-size:1;
+			border-radius:0;			
+			align:right;
+			width:80;
+			height:40;
+			text-align:center;			
+			overlay:none;
+			overlay-click:none;
+			background-color:transparent;
+			click-color: white;
+		}
+		</style>
+	</head>
+	<header>
+		<br size="16"/>
+		<input class="login-input outline" type="button" value="登录" onclick="script:close"/>
+	</header>
+	<body>
+		<img src="res:image/login1/logo.png" style="width:140;"/>
+		<br size="8"/>
+		<input type="text" value="" licon="res:image/login1/user.png" prompt="帐户"/>
+		<br size="12"/>
+		<input type="password" value="" licon="res:image/login1/key.png" prompt="密码"/>
+		<br size="12"/>
+		<input type="checkbox" caption="记住用户名"/>
+		<input type="checkbox" caption="记住密码" style="margin:0 0 0 12;"/>
+	</body>
+	<footer>
+		<img src="res:image/login1/btm.png" class="width-full"/>
+	</footer>
+</html>
